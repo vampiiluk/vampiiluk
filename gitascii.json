@@ -11532,7 +11532,30 @@
         "width": 504,
         "height": 280
       },
-      "config": {},
+      "config": {
+        "showMainSection": true,
+        "showContactSection": true,
+        "showStatsSection": false,
+        "showUptime": false,
+        "showLocation": true,
+        "showCompany": true,
+        "showLanguages": true,
+        "showStatus": true,
+        "showAchievements": true,
+        "showHighlights": false,
+        "showWebsite": true,
+        "showGithub": true,
+        "showEmail": true,
+        "customTitle": "sanan@github:~",
+        "customStatus": "M.S. Computer Eng (KFUEIT) · Lecturer · Business Development Mgr",
+        "customCompany": "KFUEIT · I.M Eureka & Co. (Unilever Distributor)",
+        "customLocation": "Rahim Yar Khan, Pakistan",
+        "customLanguages": "Python, SQL, MATLAB, LabVIEW, JS/TS, React",
+        "customEmail": "sanan.kamboh@gmail.com",
+        "customWebsite": "github.com/vampiiluk",
+        "customGithub": "github.com/vampiiluk",
+        "customAchievements": "NI GSD MUSABAKA 2015 Winner · First Class Hons (Lancaster) · 2nd in Batch (COMSATS)"
+      },
       "locked": false,
       "visible": true,
       "zIndex": 3,
@@ -11549,7 +11572,10 @@
         "width": 536,
         "height": 160
       },
-      "config": {},
+      "config": {
+        "langsCount": 5,
+        "showPercentage": true
+      },
       "locked": false,
       "visible": true,
       "zIndex": 4,
@@ -11568,22 +11594,52 @@
       },
       "config": {
         "selectedTechs": [
+          "python",
           "js",
           "ts",
-          "html",
-          "css",
-          "py",
-          "rust",
-          "go",
-          "cpp"
+          "react",
+          "vue",
+          "mysql",
+          "postgres",
+          "supabase",
+          "docker",
+          "git",
+          "github",
+          "linux",
+          "bash",
+          "matlab",
+          "c",
+          "cpp",
+          "vite",
+          "nodejs"
         ],
-        "theme": "dark",
-        "perLine": 4
+        "perLine": 9,
+        "customTitle": "[ CV STACK ]"
       },
       "locked": false,
       "visible": true,
       "zIndex": 6,
       "instanceId": "widget_1788121327304_5"
+    },
+    {
+      "widgetId": "bio",
+      "position": {
+        "x": 0,
+        "y": 578
+      },
+      "size": {
+        "width": 800,
+        "height": 220
+      },
+      "config": {
+        "customBio": "AI & Machine Learning: Generative AI, Computer Vision (YOLO), Model Fine-Tuning\nAutomation & Hardware: NI myRIO, FPGA Programming, PLC, HMI, SCADA, Microcontrollers, Circuit Design, VHDL, Verilog\nProgramming & Software: Python, SQL, MATLAB, Simulink, LabVIEW, LaTeX\nBusiness & Management: Business Development, Sales Management, Supply Chain Logistics, Market Analysis, Client Relations\nLanguages: English (Fluent), Urdu (Native), Punjabi (Native)",
+        "textAlign": "left"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 8,
+      "instanceId": "widget_vl_bio",
+      "name": "Bio Widget"
     }
   ],
   "globalStyles": {
