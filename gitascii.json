@@ -11532,15 +11532,7 @@
         "width": 504,
         "height": 280
       },
-      "config": {
-        "showContactSection": true,
-        "customTitle": "sanan@github:~",
-        "customCompany": "KFUEIT · I.M Eureka & Co. (Unilever Distributor)",
-        "customLocation": "Rahim Yar Khan, Pakistan",
-        "customEmail": "sanan.kamboh@gmail.com",
-        "customWebsite": "github.com/vampiiluk",
-        "customLanguages": "Python, SQL, MATLAB, LabVIEW, VHDL/Verilog, JS/TS, React"
-      },
+      "config": {},
       "locked": false,
       "visible": true,
       "zIndex": 3,
@@ -11562,23 +11554,6 @@
       "visible": true,
       "zIndex": 4,
       "instanceId": "widget_1788121327304_3"
-    },
-    {
-      "widgetId": "footer",
-      "name": "Footer Widget",
-      "position": {
-        "x": 0,
-        "y": 578
-      },
-      "size": {
-        "width": 800,
-        "height": 50
-      },
-      "config": {},
-      "locked": false,
-      "visible": true,
-      "zIndex": 6,
-      "instanceId": "widget_1788121327304_4"
     },
     {
       "widgetId": "tech-stack",
