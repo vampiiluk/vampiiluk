@@ -11532,7 +11532,15 @@
         "width": 504,
         "height": 280
       },
-      "config": {},
+      "config": {
+        "showContactSection": true,
+        "customTitle": "sanan@github:~",
+        "customCompany": "KFUEIT · I.M Eureka & Co. (Unilever Distributor)",
+        "customLocation": "Rahim Yar Khan, Pakistan",
+        "customEmail": "sanan.kamboh@gmail.com",
+        "customWebsite": "github.com/vampiiluk",
+        "customLanguages": "Python, SQL, MATLAB, LabVIEW, VHDL/Verilog, JS/TS, React"
+      },
       "locked": false,
       "visible": true,
       "zIndex": 3,
