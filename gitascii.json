@@ -11533,28 +11533,7 @@
         "height": 280
       },
       "config": {
-        "showMainSection": true,
-        "showContactSection": true,
-        "showStatsSection": false,
-        "showUptime": false,
-        "showLocation": true,
-        "showCompany": true,
-        "showLanguages": true,
-        "showStatus": true,
-        "showAchievements": true,
-        "showHighlights": false,
-        "showWebsite": true,
-        "showGithub": true,
-        "showEmail": true,
-        "customTitle": "sanan@github:~",
-        "customStatus": "M.S. Computer Eng (KFUEIT) · Lecturer · Business Development Mgr",
-        "customCompany": "KFUEIT · I.M Eureka & Co. (Unilever Distributor)",
-        "customLocation": "Rahim Yar Khan, Pakistan",
-        "customLanguages": "Python, SQL, MATLAB, LabVIEW, JS/TS, React",
-        "customEmail": "sanan.kamboh@gmail.com",
-        "customWebsite": "github.com/vampiiluk",
-        "customGithub": "github.com/vampiiluk",
-        "customAchievements": "NI GSD MUSABAKA 2015 Winner · First Class Hons (Lancaster) · 2nd in Batch (COMSATS)"
+        "showLanguages": true
       },
       "locked": false,
       "visible": true,
@@ -11566,16 +11545,13 @@
       "name": "Languages Widget",
       "position": {
         "x": 0,
-        "y": 402
+        "y": 562
       },
       "size": {
         "width": 536,
         "height": 160
       },
-      "config": {
-        "langsCount": 5,
-        "showPercentage": true
-      },
+      "config": {},
       "locked": false,
       "visible": true,
       "zIndex": 4,
@@ -11585,8 +11561,8 @@
       "widgetId": "tech-stack",
       "name": "Tech-stack Widget",
       "position": {
-        "x": 544,
-        "y": 402
+        "x": 552,
+        "y": 562
       },
       "size": {
         "width": 240,
@@ -11594,27 +11570,29 @@
       },
       "config": {
         "selectedTechs": [
-          "python",
-          "js",
-          "ts",
-          "react",
-          "vue",
-          "mysql",
-          "postgres",
-          "supabase",
+          "linux",
           "docker",
+          "aws",
           "git",
           "github",
-          "linux",
           "bash",
+          "python",
           "matlab",
-          "c",
+          "postgres",
+          "mysql",
+          "sqlite",
+          "py",
           "cpp",
-          "vite",
-          "nodejs"
+          "c",
+          "supabase",
+          "redis",
+          "mariadb",
+          "vercel",
+          "vscode"
         ],
-        "perLine": 9,
-        "customTitle": "[ CV STACK ]"
+        "theme": "dark",
+        "perLine": 4,
+        "customTitle": ""
       },
       "locked": false,
       "visible": true,
@@ -11622,24 +11600,68 @@
       "instanceId": "widget_1788121327304_5"
     },
     {
-      "widgetId": "bio",
+      "instanceId": "widget_1788122416132",
+      "widgetId": "contribution-snake",
+      "name": "Contribution-snake Widget",
       "position": {
         "x": 0,
-        "y": 578
+        "y": 734
       },
       "size": {
         "width": 800,
-        "height": 220
+        "height": 250
+      },
+      "config": {},
+      "locked": false,
+      "visible": true,
+      "zIndex": 6
+    },
+    {
+      "instanceId": "widget_1788122444499",
+      "widgetId": "social-media",
+      "name": "Social-media Widget",
+      "position": {
+        "x": 0,
+        "y": 1000
+      },
+      "size": {
+        "width": 800,
+        "height": 120
       },
       "config": {
-        "customBio": "AI & Machine Learning: Generative AI, Computer Vision (YOLO), Model Fine-Tuning\nAutomation & Hardware: NI myRIO, FPGA Programming, PLC, HMI, SCADA, Microcontrollers, Circuit Design, VHDL, Verilog\nProgramming & Software: Python, SQL, MATLAB, Simulink, LabVIEW, LaTeX\nBusiness & Management: Business Development, Sales Management, Supply Chain Logistics, Market Analysis, Client Relations\nLanguages: English (Fluent), Urdu (Native), Punjabi (Native)",
-        "textAlign": "left"
+        "selectedSocials": [
+          "discord",
+          "github",
+          "linkedin"
+        ],
+        "socialUrls": {
+          "github": "https://github.com/vampiiluk",
+          "discord": "https://discord.gg/K6xcM6f3w",
+          "linkedin": "https://www.linkedin.com/in/sanan-ahmad-kamboh"
+        }
       },
       "locked": false,
       "visible": true,
-      "zIndex": 8,
-      "instanceId": "widget_vl_bio",
-      "name": "Bio Widget"
+      "zIndex": 7
+    },
+    {
+      "instanceId": "widget_1788122816869",
+      "widgetId": "bio",
+      "name": "Bio Widget",
+      "position": {
+        "x": 0,
+        "y": 394
+      },
+      "size": {
+        "width": 800,
+        "height": 160
+      },
+      "config": {
+        "customBio": "Computer Engineer · Developer · Researcher. I build Frappe/ERPNext systems, AI video & document tools, and hardware-software projects. · B.S. with First Class Honours (Univ. of Lancaster) · NI GSD MUSABAKA 2015 international winner."
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 8
     }
   ],
   "globalStyles": {
