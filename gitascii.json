@@ -11533,7 +11533,12 @@
         "height": 280
       },
       "config": {
-        "showLanguages": true
+        "showLanguages": false,
+        "showCompany": true,
+        "customWebsite": "engineeringsolutions.dpdns.org",
+        "customEmail": "vampiiluk@gmail.com",
+        "showEmail": true,
+        "showOrgs": false
       },
       "locked": false,
       "visible": true,
