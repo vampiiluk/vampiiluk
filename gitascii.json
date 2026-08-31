@@ -11540,7 +11540,9 @@
         "showEmail": true,
         "showOrgs": false,
         "showFollowers": false,
-        "showStars": false
+        "showStars": false,
+        "showTimezone": false,
+        "showAchievements": false
       },
       "locked": false,
       "visible": true,
