@@ -11538,7 +11538,9 @@
         "customWebsite": "engineeringsolutions.dpdns.org",
         "customEmail": "vampiiluk@gmail.com",
         "showEmail": true,
-        "showOrgs": false
+        "showOrgs": false,
+        "showFollowers": false,
+        "showStars": false
       },
       "locked": false,
       "visible": true,
